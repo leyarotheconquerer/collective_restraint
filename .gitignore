@@ -1,0 +1,4 @@
+*.kra~
+*.blend[0-9]+
+*/Intermediate/*
+*/Saved/*
