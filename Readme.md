@@ -22,12 +22,12 @@ Core game:
 
 ## Requirements
 
-- [ ] Player can move around
+- [x] Player can move around
 - [ ] Player can switch robots
 - [ ] Remembers last three robots
 - [ ] Can make a loop with robots
 - [ ] Loop captures rogue robots
-- [ ] Rogue robots run from active robot
+- [?] Rogue robots run from active robot
 - [ ] Captured robots (are controlled?, disappear?, Stay around?)
 	- [ ] Captured robots may be used to capture others (extension) (early)
 - [ ] Indications of
