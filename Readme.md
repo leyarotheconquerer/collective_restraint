@@ -1,110 +1,104 @@
-# Theme: Stuck in a Loop
+# Ludum Dare 47
 
-Game which is the same thing over and over
-You just modify it
+Theme: **Stuck in a Loop**
 
+## Concept
 
-Game in which you are inside a geometric loop
+Use your many robots to retrieve the runaways in a capture loop. Unfortunately, you only have enough power for three robots, so you can only control three robots at a time.
 
-Game in which you expand a loop of levels
-By choosing which ability you want at the end of the level
-Chosen ability influences which room is added to level
-Score increases with each run?
-Time tracked and looped somehow?
-Abilities include:
-* Moving forward
-* Moving sideways
-* Turning
-* Pressing blue buttons
-* Pressing red buttons
-* Picking up blue blocks
-* Picking up red blocks
-* Jumping
-* Grappling?
-Each room has multiple ways to complete it
-Prefer to make it easier to finish levels by abilities unlocked later on
-"Loop to Freedom"
+* First person perspective
+* Move robot around
+* Can transfer control to another robot
+* Remembers the last three robots controlled
+* Can make a loop with the last three robots controlled
+* The capture loop may not be larger than x amount
+* Rogues will run away from your controlled robot
+* To win a level, you must encircle each rogue robot in your capture loop
 
-## The Duck Option
-Add a duck
-Over time increase the numer of ducks
-Add an ability asking, "what's with the ducks?"
-Response is to start over, with a dialog like:
-* "What ducks?"
-* "There are no ducks"
-* "What even is a duck?"
-* "You must just be seeing things"
-* "Trust the duck. The duck is your friend"
+Core game:
+* Capture
+* Transfer control
+* Figuring out how to get the robots you need to capture the others
 
-Game where you must capture all the aliens and trap them in a loop
+## Requirements
 
-Game where you must capture a monster by surrounding it with a loop
-Monster will try to escape
-Monster is larger than you?
-Monster is faster than you?
-Terrain is restrictive (to you)?
-Dangers:
-* Content hog
-* AI
-* Detecting if in loop (dynamic geometry?)
-	- Could make this simpler by limiting to three posts
-	- Could draw a cylinder using those three points
-	- Collide against cylinder
-May need monster attractors
-Would need to make monster behavior predictable
-But difficult
-That would be hard to balance
-Could add additional enemies which drain your health that you must deal with
-More AI would be hard though
-Types of monsters:
-* Fast
-* Large
-* Swimming
-Types of terrain:
-* Open
-* Corridor
-* Ponded
-* Forested
-* Hilly
-* Mountainy
-* Cliff
-* Plateau
+- [ ] Player can move around
+- [ ] Player can switch robots
+- [ ] Remembers last three robots
+- [ ] Can make a loop with robots
+- [ ] Loop captures rogue robots
+- [ ] Rogue robots run from active robot
+- [ ] Captured robots (are controlled?, disappear?, Stay around?)
+	- [ ] Captured robots may be used to capture others (extension) (early)
+- [ ] Indications of
+	- [ ] remembered robots
+	- [ ] active robot
+	- [ ] rogue robots
+	- [ ] captured robot
+	- [ ] capture loop
+	- [ ] loop viability
+	- [ ] loop active
 
-Game where you must expand a loop in which you are trapped
-Expand the loop by collecting things
-Bounce around loop?
-Jump between platforms in loop?
-Time until loop failure?
-Time until loop contracts?
-Pillars in the sky?
-Would work for a platformer, but could we use a different traverse mechanic?
-Buttons... meh
-Fighting? Could be fun
+### Extensions
+- [ ] Different rogue robots
+	- [ ] Captured join you
+	- [ ] Large
+	- [ ] Fast
+	- [ ] Destroy inactive robots
 
+## Assets
+- [ ] Player robots
+	- [ ] Activate animation
+	- [ ] Deactivate animation
+	- [ ] Move animation
+	- [ ] Loop animation
+	- [ ] Move sound
+	- [ ] Activate sound
+	- [ ] Deactivate sound
+- [ ] Rogue robots
+	- [ ] Movement animation
+	- [ ] Run animation
+	- [ ] Capture animation
+	- [ ] Move sound
+	- [ ] Run sound
+	- [ ] Capture sound
+	- [ ] Fast (extension)
+		- [ ] Fast (extension)
+	- [ ] Destroy (extension)
+		- [ ] Destroy animation (extension)
+	- [ ] Join you (extension)
+- [ ] Loop
+	- [ ] Texture or animation
+	- [ ] Activate sound
+	- [ ] Deactivate sound
+- [ ] Background music
+- [ ] Floor
+	- [ ] Variants?
+- [ ] Wall
+	- [ ] Variants?
+- [ ] Pillar
+	- [ ] Variants?
 
-Jedi in a shield loop
-Lots of droids outside the shield
-Kill a bunch, shield expands
-As shield expands, more are let in
-Will try to shoot you
-Must go around killing them
-As shield expands, you get more abilities or things to collect (like health)
-Different droids spawn as shield expands
-Basically just a brawler
-Dangers:
-* AI!!!
-* Damage model
-* Fun combat
-* Different attacks (content)
+## Schedule
 
+### Friday
+* Concept
+* Rudimentary FPS
+* AI that runs
 
-Or game where the loop around you gets smaller
-Like most battle royale
-Navigate inside the loop using movement and jumps?
-Around obstacles?
-Make the loop a sphere?
+### Morning Saturday
+* Base game
+	- Robots you can control
+	- Capture cylinder
+	- Level winning
 
-Hey! Spherical asteroids?
-Sphere shrinks over time?
+### Afternoon Saturday
+* Sound
+* Levels
 
+### Morning Sunday
+* Levels
 
+### Afernoon Sunday
+* Levels
+* Polish
