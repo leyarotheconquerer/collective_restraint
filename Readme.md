@@ -26,7 +26,7 @@ Core game:
 - [x] Player can switch robots
 - [x] Remembers last three robots
 - [x] Can make a loop with robots
-- [ ] Loop captures rogue robots
+- [x] Loop captures rogue robots
 - [?] Rogue robots run from active robot
 - [ ] Captured robots (are controlled?, disappear?, Stay around?)
 	- [ ] Captured robots may be used to capture others (extension) (early)
@@ -47,7 +47,7 @@ Core game:
 	- [ ] Destroy inactive robots
 
 ## Assets
-- [ ] Player robots
+- [x] Player robots
 	- [ ] Activate animation
 	- [ ] Deactivate animation
 	- [ ] Move animation
@@ -55,7 +55,7 @@ Core game:
 	- [ ] Move sound
 	- [ ] Activate sound
 	- [ ] Deactivate sound
-- [ ] Rogue robots
+- [x] Rogue robots
 	- [ ] Movement animation
 	- [ ] Run animation
 	- [ ] Capture animation
