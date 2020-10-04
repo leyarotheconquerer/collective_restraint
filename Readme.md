@@ -27,17 +27,17 @@ Core game:
 - [x] Remembers last three robots
 - [x] Can make a loop with robots
 - [x] Loop captures rogue robots
-- [?] Rogue robots run from active robot
+- [x] Rogue robots run from active robot
 - [ ] Captured robots (are controlled?, disappear?, Stay around?)
 	- [ ] Captured robots may be used to capture others (extension) (early)
-- [ ] Indications of
+- [x] Indications of
 	- [x] remembered robots
 	- [x] active robot
-	- [ ] rogue robots
-	- [ ] captured robot
+	- [x] rogue robots
+	- [x] captured robot
 	- [x] capture loop
-	- [ ] loop viability
-	- [ ] loop active
+	- [x] loop viability
+	- [x] loop active
 
 ### Extensions
 - [ ] Different rogue robots
