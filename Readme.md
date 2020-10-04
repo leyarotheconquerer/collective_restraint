@@ -48,17 +48,17 @@ Core game:
 
 ## Assets
 - [x] Player robots
-	- [ ] Activate animation
-	- [ ] Deactivate animation
-	- [ ] Move animation
-	- [ ] Loop animation
+	- [x] Activate animation
+	- [x] Deactivate animation
+	- [x] Move animation
+	- [x] Loop animation
 	- [ ] Move sound
 	- [ ] Activate sound
 	- [ ] Deactivate sound
 - [x] Rogue robots
-	- [ ] Movement animation
-	- [ ] Run animation
-	- [ ] Capture animation
+	- [x] Movement animation
+	- [x] Run animation
+	- [x] Capture animation
 	- [ ] Move sound
 	- [ ] Run sound
 	- [ ] Capture sound
